@@ -17,8 +17,8 @@ export const GET = (async (RequestEvent) => {
 }) satisfies RequestHandler;
 
 export const POST = (async (RequestEvent) => {
-	const { request } = RequestEvent;
-	const { text } = await request.json();
+	// const { request } = RequestEvent;
+	// const { text } = await request.json();
 
 	const newComment = null;
 
